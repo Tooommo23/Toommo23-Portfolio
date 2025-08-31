@@ -6,58 +6,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>toommo23Portfolio</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="script.js"></script>
     </head>
 
     <body class="bg-black text-white min-h-screen">
 
         <header class="fixed top-0 left-0 w-full bg-neutral-800 text-white p-4 rounded-b-3xl shadow-lg z-50">
-  <div class="container mx-auto flex justify-between items-center">
-    <h1 class="text-xl font-bold">Toommo23 Portfolio</h1>
-    <nav class="space-x-6">
-      <a href="#aboutme" class="hover:text-yellow-400 transition-colors">About me</a>
-      <a href="#setup" class="hover:text-yellow-400 transition-colors">Setup</a>
-      <a href="#justlucky" class="hover:text-yellow-400 transition-colors">JustLucky</a>
+  <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4">
+    <h1 class="text-lg sm:text-xl font-bold mb-2 sm:mb-0">Toommo23 Portfolio</h1>
+    <nav class="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6">
+      <a href="#aboutme" class="hover:text-yellow-400 transition-colors text-sm sm:text-base">About me</a>
+      <a href="#setup" class="hover:text-yellow-400 transition-colors text-sm sm:text-base">Setup</a>
+      <a href="#justlucky" class="hover:text-yellow-400 transition-colors text-sm sm:text-base">JustLucky</a>
     </nav>
   </div>
 </header>
-        <main class="pt-32 flex flex-col items-center text-center space-y-6">
-    <div class="w-40 h-40 rounded-full border-4 border-white overflow-hidden">
+
+        <main class="pt-32 flex flex-col items-center text-center space-y-6 px-4">
+    <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-white overflow-hidden">
       <img src="https://i.postimg.cc/NjgPg0Qm/temp-Image-E3-Nyw-U.avif" alt="Profile Picture" class="w-full h-full object-cover">
     </div>
 
-    <div><h2>Toommo23</h2></div>
+    <div><h2 class="text-xl sm:text-2xl">Toommo23</h2></div>
 
-<div class="flex justify-center space-x-6 mt-8">
+<div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-8 w-full max-w-md sm:max-w-none">
   <a href="https://t.me/tooommo23" target="_blank"
-     class="flex items-center bg-neutral-800 hover:bg-neutral-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
+     class="flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-white font-semibold px-4 py-3 rounded-lg shadow-md transition">
     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M9.78 14.78 8.5 19l2.96-2.6 5.7 4.13c.66.48 1.59.13 1.77-.65L21.9 4.77c.18-.78-.56-1.44-1.3-1.17L2.9 9.36c-.82.3-.8 1.47.04 1.72l4.52 1.36 9.98-6.04-7.66 8.38z"/></svg>
     Telegram
   </a>
 
-
-  <a href="https://github.com/tuo_username" target="_blank"
-     class="flex items-center bg-neutral-800 hover:bg-neutral-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
- 
+  <a href="https://github.com/tooommo23" target="_blank"
+     class="flex items-center justify-center bg-neutral-800 hover:bg-neutral-700 text-white font-semibold px-4 py-3 rounded-lg shadow-md transition">
     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.4 7.86 10.94.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.87-1.54-3.87-1.54-.53-1.36-1.3-1.72-1.3-1.72-1.06-.73.08-.71.08-.71 1.18.08 1.8 1.21 1.8 1.21 1.04 1.78 2.74 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.65.24 2.86.12 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.41-5.29 5.69.42.36.8 1.1.8 2.22 0 1.6-.02 2.89-.02 3.29 0 .31.21.67.8.56A10.5 10.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
     GitHub
   </a>
 </div>
 
-       <div id="aboutme" class="bg-neutral-800 rounded-xl p-4 shadow-md max-w-md mx-auto mb-8">
-  <h2 class="text-2xl font-bold mb-2">🌱 About Me</h2>
-  <p class="text-gray-300">Hey, I’m toommo23, but you can call me Leonardo. I’m a student at IT Institute and I love computer science. I’m learning Java, JavaScript, Python, and PHP, and I enjoy building websites. I’ve played a bunch of sports, but soccer’s my favorite.</p>
+       <div id="aboutme" class="bg-neutral-800 rounded-xl p-6 shadow-md w-full max-w-md sm:max-w-lg mx-auto mb-8">
+  <h2 class="text-xl sm:text-2xl font-bold mb-2">🌱 About Me</h2>
+  <p class="text-gray-300 text-sm sm:text-base">Hey, I'm toommo23, but you can call me Leonardo. I'm a student at IT Institute and I love computer science. I'm learning Java, JavaScript, Python, and PHP, and I enjoy building websites. I've played a bunch of sports, but soccer's my favorite.</p>
 </div>
 
-       <section id="setup" class="w-[450px] mx-auto mt-8">
-  <div class="bg-neutral-800 rounded-xl p-6 shadow-md">
-    <h3 class="text-2xl font-bold mb-4">⌨️ Setup</h3>
+       <section id="setup" class="w-full max-w-md sm:max-w-lg mx-auto mt-8">
+  <div class="bg-neutral-800 rounded-xl p-4 sm:p-6 shadow-md">
+    <h3 class="text-xl sm:text-2xl font-bold mb-4">⌨️ Setup</h3>
 
     <details class="mb-4">
-      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-4 py-2 rounded-lg hover:bg-neutral-600">
+      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-3 sm:px-4 py-2 rounded-lg hover:bg-neutral-600 text-sm sm:text-base">
         Desktop 🖥️
       </summary>
-      <div class="mt-2 pl-6 text-gray-300 space-y-1">
+      <div class="mt-2 pl-4 sm:pl-6 text-gray-300 space-y-1 text-sm sm:text-base">
         <p>Model: HP 800 G3 DM</p>
         <p>Processor: Intel Core i5-6500T</p>
         <p>RAM: 16GB DDR4</p>
@@ -69,28 +67,27 @@
     </details>
 
     <details class="mb-4">
-      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-4 py-2 rounded-lg hover:bg-neutral-600">
-        Laptop  💻      </summary>
-      <div class="mt-2 pl-6 text-gray-300 space-y-1">
-        <p>model: MacBook air 13" 2025</p>
-        <p>-SoC: Apple M4</p>
-        <p>RAM: 16GB </p>
-        <p>SSD: 512GB 
+      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-3 sm:px-4 py-2 rounded-lg hover:bg-neutral-600 text-sm sm:text-base">
+        Laptop 💻
+      </summary>
+      <div class="mt-2 pl-4 sm:pl-6 text-gray-300 space-y-1 text-sm sm:text-base">
+        <p>Model: MacBook air 13" 2025</p>
+        <p>SoC: Apple M4</p>
+        <p>RAM: 16GB</p>
+        <p>SSD: 512GB</p>
         <p>OS: MacOS sequoia 15.6.1</p>
-        </p>
       </div>
     </details>
 
     <details class="mb-4">
-      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-4 py-2 rounded-lg hover:bg-neutral-600">
-        smartphones 📱
+      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-3 sm:px-4 py-2 rounded-lg hover:bg-neutral-600 text-sm sm:text-base">
+        Smartphones 📱
       </summary>
-      <div class="mt-2 pl-6 text-gray-300 space-y-1">
-        <p></p>
-        <p>main: POCO F6/Redmi 3 TURBO (peridot) </p>
-        <p>Redmi 10C (fog) </p>
-        <p>Redmi 5 plus (xiaomi-vince) </p>
-        <p>redmi 9T</p>
+      <div class="mt-2 pl-4 sm:pl-6 text-gray-300 space-y-1 text-xs sm:text-sm">
+        <p>Main: POCO F6/Redmi 3 TURBO (peridot)</p>
+        <p>Redmi 10C (fog)</p>
+        <p>Redmi 5 plus (xiaomi-vince)</p>
+        <p>Redmi 9T</p>
         <p>Samsung Galaxy S3</p>
         <p>Samsung Galaxy S4</p>
         <p>Samsung Galaxy note 3 neo</p>
@@ -99,17 +96,16 @@
         <p>Oppo a15s (x3)</p>
         <p>OnePlus One</p>
         <p>Huawei p8 lite (x4 lol)</p>
-        <p>Motorola G32 </p>
+        <p>Motorola G32</p>
         <p>Motorola e22</p>
-
       </div>
     </details>
 
     <details>
-      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-4 py-2 rounded-lg hover:bg-neutral-600">
+      <summary class="block cursor-pointer font-semibold bg-neutral-700 px-3 sm:px-4 py-2 rounded-lg hover:bg-neutral-600 text-sm sm:text-base">
         Console 🎮
       </summary>
-      <div class="mt-2 pl-6 text-gray-300 space-y-1">
+      <div class="mt-2 pl-4 sm:pl-6 text-gray-300 space-y-1 text-sm sm:text-base">
         <p>Xbox series S (main)</p>
         <p>Nintendo Switch V2 (2018-19)</p>
         <p>Nintendo 2DS (Modded)</p>
@@ -119,29 +115,29 @@
         <p>PS2 (Modded)</p>
         <p>PS1 (burned lmao)</p>
         <p>PSP (Modded)</p>
-        <p>Nintendo Classic Mini:NES </p>
+        <p>Nintendo Classic Mini:NES</p>
       </div>
     </details>
   </div>
 </section>
 
-       <div id="justlucky" class="bg-neutral-800 rounded-xl p-4 shadow-md max-w-md mx-auto mb-8">
-  <h2 class="text-2xl font-bold mb-2">🍀 justLucky</h2>
-  <p class="text-gray-300">If you liked my site, go check out my bro JustLucky! (Riccardo)</p>
+       <div id="justlucky" class="bg-neutral-800 rounded-xl p-6 shadow-md w-full max-w-md sm:max-w-lg mx-auto mb-8">
+  <h2 class="text-xl sm:text-2xl font-bold mb-2">🍀 justLucky</h2>
+  <p class="text-gray-300 text-sm sm:text-base">If you liked my site, go check out my bro JustLucky! (Riccardo)</p>
   <a href="https://just-lucky.github.io/Website/" target="_blank">
-    <button class="mt-3 px-6 py-3 bg-neutral-700 text-white  font-semibold rounded-lg hover:bg-neutral-600">
+    <button class="mt-3 px-4 sm:px-6 py-3 bg-neutral-700 text-white font-semibold rounded-lg hover:bg-neutral-600 w-full sm:w-auto">
       Visit justLucky's Site
     </button>
   </a>
 </div>
-        <footer class="w-full bg-neutral-800 text-white p-6 rounded-t-2xl">
+
+        <footer class="w-full bg-neutral-800 text-white p-4 sm:p-6 rounded-t-2xl">
   <div class="max-w-4xl mx-auto text-center">
-    <p class="text-lg font-semibold">🌐 Toommo23 Site</p>
-    <p class="text-sm text-gray-300 mt-2">
+    <p class="text-base sm:text-lg font-semibold">🌐 Toommo23 Site</p>
+    <p class="text-xs sm:text-sm text-gray-300 mt-2">
       © 2025 All rights reserved.
     </p>
   </div>
-</div>
 </footer>
     </body>
 
